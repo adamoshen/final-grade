@@ -1,1 +1,3 @@
-# Basic-Scripts
+# Basic Scripts
+
+A collection of basic scripts.
