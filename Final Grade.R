@@ -22,7 +22,7 @@ while (running){
     w <- as.numeric(readline("Enter weight (%): "))
     weights <- c(weights, w)
     
-    if (!(str_detect(m, pattern="/"))){
+    if (!str_detect(m, pattern="/")){
       ## Percentage grade entered
       decimalGrade <- as.numeric(m)/100
       marks <- c(marks, decimalGrade)
@@ -44,8 +44,6 @@ points <- sum(marks*weights)
 ## `gradeCut` can be modified to suit your needs
 gradeCut <- c(70, 75, 80, 85, 90)
 finalExamGrade <- (gradeCut - points)/(examWeight/100)
-## Reported final exam grades should not be negative
-finalExamGrade <- ifelse(finalExamGrade < 0, 0, finalExamGrade)
 
 
 # Output
