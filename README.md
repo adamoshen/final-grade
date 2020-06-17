@@ -1,6 +1,12 @@
 # Final Grade
 Calculates your required final exam grade in order to obtain a final grade of 70+ in a course, based on your current progress. Allows for percentage or **fractional** grade input.
 
+## Running the script
+
+```r
+devtools::source_url("https://raw.githubusercontent.com/adamshen1/FinalGrade/master/FinalGrade.R")
+```
+
 ## Sample Input
 
 ```
