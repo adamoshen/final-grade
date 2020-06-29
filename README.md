@@ -4,7 +4,7 @@ Calculates your required final exam grade in order to obtain a final grade of 70
 ## Running the script
 
 ```r
-devtools::source_url("https://raw.githubusercontent.com/adamshen1/FinalGrade/master/final-grade.R")
+devtools::source_url("https://raw.githubusercontent.com/adamshen1/final-grade/master/final-grade.R")
 ```
 
 ## Sample Input
