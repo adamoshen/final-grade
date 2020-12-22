@@ -10,15 +10,15 @@ devtools::source_url("https://raw.githubusercontent.com/adamshen1/final-grade/ma
 ## Sample Input
 
 ```
-Enter mark as percentage or fraction (-1 to exit): 29.5/30
+Enter mark as percentage or fraction (`e` to exit): 29.5/30
 Enter weight (%): 12
-Enter mark as percentage or fraction (-1 to exit): 89
+Enter mark as percentage or fraction (`e` to exit): 89
 Enter weight (%): 12
-Enter mark as percentage or fraction (-1 to exit): 87/93
+Enter mark as percentage or fraction (`e` to exit): 87/93
 Enter weight (%): 12
-Enter mark as percentage or fraction (-1 to exit): 33.5/36
+Enter mark as percentage or fraction (`e` to exit): 33.5/36
 Enter weight (%): 15
-Enter mark as percentage or fraction (-1 to exit): -1
+Enter mark as percentage or fraction (`e` to exit): e
 ```
 
 ## Output
